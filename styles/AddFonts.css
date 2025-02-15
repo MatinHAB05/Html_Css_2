@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Times-new_roman_italic";
+    font-family: "Times_new_roman_italic";
     src: url("../fonts/Times-new_roman_italic.ttf") format("truetype");
 }
 @font-face {
@@ -13,4 +13,8 @@
 @font-face {
     font-family: "TTNorms_Regular";
     src: url("//fonts/TTNorms_Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "Pop_ins";
+    src: url("../fonts/Poppins_Regular.ttf") format("truetype");
 }
