@@ -1,0 +1,16 @@
+:root{
+    /*Buttons Config*/
+    --BUT_border_radius : 2px;
+    --BUT_text_color : white;
+    --BUT_font_familly : "TTNorms_Regular" , sans-serif;
+
+
+    /*Colors*/
+    --sea_blue : #2F5BEA;
+    --the_gray : #6C7890;
+    --the_low_green : #87BC25;
+    --the_main_text_color : black;
+
+
+    --the_line_height : 22px;
+}
