@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: "TTNorms_Light";
-    src: url("//fonts/TTNorms_Light.otf") format("opentype");
+    src: url("../fonts/TTNorms_Light.otf") format("opentype");
 }
 @font-face {
     font-family: "TTNorms_Medium";
@@ -12,7 +12,7 @@
 }
 @font-face {
     font-family: "TTNorms_Regular";
-    src: url("//fonts/TTNorms_Regular.otf") format("opentype");
+    src: url("../fonts/TTNorms_Regular.otf") format("opentype");
 }
 @font-face {
     font-family: "Pop_ins";
