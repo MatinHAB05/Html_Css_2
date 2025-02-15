@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Times-new_roman_italic";
+    src: url("../fonts/Times-new_roman_italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "TTNorms_Light";
+    src: url("//fonts/TTNorms_Light.otf") format("opentype");
+}
+@font-face {
+    font-family: "TTNorms_Medium";
+    src: url("../fonts/TTNorms_Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: "TTNorms_Regular";
+    src: url("//fonts/TTNorms_Regular.otf") format("opentype");
+}
