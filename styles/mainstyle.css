@@ -1,36 +1,83 @@
 
 .mainmain{
-
+    width: 100%;
+    height: 3000px; /********/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
 .How_itWork_container_mainmain{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    justify-content: center;
+    width: 100%;
+    padding: 0 10rem;
 
 }
 
 
 .maintile_howitWork{
-
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 2rem;
 }
 
 
 .minmmal_tilte{
-
+    font-family: "TTNorms_Regular";
+    font-size: 0.8rem;
+    color: var(--the_gray);
 }
 
 
 .indetailtitle_container{
+    font-family: "TTNorms_Regular";
+    font-size: 1.8rem;
 
 }
 
 
 .ourgoals_mainmain{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+
 
 }
+.ourgoalText_container{
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 2rem;
+}
 
+.ourgoalText_container>div:nth-child(odd){
+    font-size: 1.2rem;
+    color: black;
+    font-family: "TTNorms_Regular";
+}
 
+.ourgoalText_container>div:nth-child(even){
+    font-size: 1rem;
+    color: var(--the_gray);
+    font-family: "TTNorms_Regular";
+    text-align: center;
+}
 .image_howit_container_mainmain{
-
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
