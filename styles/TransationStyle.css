@@ -1,4 +1,4 @@
-/* navTransationStyle */
+/* Header Trans */
 .nav_container_mainheader a{
     transition: background-color 250ms ease-out 0s , color 250ms ease-out 0s;
     padding: 0.5rem 1rem;
@@ -25,4 +25,27 @@
 .connectUs_container_button_mainheader:active , .buttonSet_header>a:active{ 
     background-color: black !important; 
     color: #FFC107;
+}
+
+/*Main Trans*/
+
+
+/*Footer Trans*/
+.copy_right_details_container>a{
+    transition: opacity 300ms ease 200ms;
+}
+.copy_right_details_container>a:hover{
+    opacity: 1;
+}
+.sendemail_box_container{
+    transition: box-shadow 300ms ease-in-out 150ms;
+}
+.sendemail_box_container:hover , .sendemail_box_container>input:focus{
+    box-shadow:0 0 10px bisque ;
+}
+.sendemail_box_container .button_class{
+    transition: background-color 100ms ease-out;
+}
+.sendemail_box_container .button_class:active{
+    background-color: #64DD17;
 }

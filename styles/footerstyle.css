@@ -30,6 +30,8 @@
 .emailbox{
     outline: none;
     border: none;
+    font-family: "Pop_ins";
+
 }
 .emailbox::placeholder{
     font-family: "Pop_ins";
