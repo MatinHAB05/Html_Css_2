@@ -26,3 +26,12 @@ body{
 *{
     box-sizing: border-box;
 }
+.none_selectionabe{
+    user-select: none;
+}
+.pin_comments_box >.comment_footer{
+    user-select: none;
+}
+img{
+    user-select: none;
+}
