@@ -31,21 +31,24 @@
     outline: none;
     border: none;
     font-family: "Pop_ins";
-
 }
 .emailbox::placeholder{
     font-family: "Pop_ins";
 }
-
+.button_reset_container{
+    height: 2.2rem;
+    width: 3rem;
+}
 .button_class{
     height: 2.2rem;
     width: 3rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
     border: 1px solid transparent;
     border-radius: 2.5px;
     background-color: var(--sea_blue);
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
 }
 
