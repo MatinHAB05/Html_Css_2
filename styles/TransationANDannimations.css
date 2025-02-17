@@ -18,7 +18,7 @@
     }
 }
 
-@keyframes starter{
+@keyframes sampleImageANIM{
     0%{
         opacity: 0;
         transform: rotate(-30deg);
@@ -30,7 +30,7 @@
 
     }
 }
-@keyframes starter2{
+@keyframes pin_comments_boxANIM{
     0%{
         opacity: 0;
         transform: rotate(+30deg);
@@ -38,6 +38,39 @@
     100%{
         opacity: 1;
         transform: rotate(0deg);
+    }
+}
+@keyframes details_container_headerANIM{
+    0%{
+        opacity: 0;
+        transform: rotate(90deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotate(0deg);
+
+
+    }
+}
+@keyframes image_container_headerANIM{
+    0%{
+        opacity: 0;
+        transform: rotate(-90deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotate(0deg);
+
+
+    }
+}
+@keyframes navAnim{
+    0%{
+        scale: 0;
+    }
+
+    100%{
+        scale:1;
     }
 }
 
@@ -112,10 +145,23 @@
 /*startAnim*/
 
 .sampleImage {
-    animation: starter 1s ease 40ms 1  forwards;
+    animation: sampleImageANIM 1s ease 40ms 1  forwards;
     /* opacity: 0; */
 }
 .pin_comments_box{
-    animation: starter2 1s ease 40ms 1  forwards;
+    animation: pin_comments_boxANIM 1s ease 40ms 1  forwards;
     opacity: 0;
+}
+.details_container_header{
+    opacity: 0;
+    animation: details_container_headerANIM 1s ease 40ms 1  forwards;
+    
+}
+.image_container_header>img{
+    opacity: 0;
+    animation: image_container_headerANIM 1s ease 40ms 1  forwards;
+
+}
+.nav_header{
+    animation: navAnim 1.5s ease 40ms 1 forwards;
 }
