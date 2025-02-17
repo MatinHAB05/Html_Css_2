@@ -1,0 +1,25 @@
+/* navTransationStyle */
+.nav_container_mainheader a{
+    transition: background-color 250ms ease-out 0s , color 250ms ease-out 0s;
+    padding: 0.5rem 1rem;
+}
+.nav_container_mainheader  a:hover{
+    background-color: #E3F2FD;
+}   
+.nav_container_mainheader  a:active{
+    background-color: black;
+    color: #FFC107;
+
+}   
+/*button click*/
+.connectUs_container_button_mainheader{
+    transition: all 250ms ease 0s;
+
+}
+.connectUs_container_button_mainheader:hover{ 
+    background-color: #2f3fea;
+}
+.connectUs_container_button_mainheader:active{ 
+    background-color: black;
+    color: #FFC107;
+}

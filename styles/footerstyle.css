@@ -44,6 +44,7 @@
     background-color: var(--sea_blue);
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .copy_right_details_container{
