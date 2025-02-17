@@ -12,14 +12,17 @@
 
 }   
 /*button click*/
-.connectUs_container_button_mainheader{
+.connectUs_container_button_mainheader , .buttonSet_header>a{
     transition: all 250ms ease 0s;
 
 }
-.connectUs_container_button_mainheader:hover{ 
-    background-color: #2f3fea;
+.connectUs_container_button_mainheader:hover , .buttonSet_header>a:first-child:hover{ 
+    background-color: #6d9620;
 }
-.connectUs_container_button_mainheader:active{ 
-    background-color: black;
+.connectUs_container_button_mainheader:hover , .buttonSet_header>a:last-child:hover{ 
+    background-color: #212a8f;
+}
+.connectUs_container_button_mainheader:active , .buttonSet_header>a:active{ 
+    background-color: black !important; 
     color: #FFC107;
 }
