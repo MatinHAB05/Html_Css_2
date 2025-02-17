@@ -30,6 +30,8 @@
 .emailbox{
     outline: none;
     border: none;
+    font-family: "Pop_ins";
+
 }
 .emailbox::placeholder{
     font-family: "Pop_ins";
@@ -44,6 +46,7 @@
     background-color: var(--sea_blue);
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .copy_right_details_container{
