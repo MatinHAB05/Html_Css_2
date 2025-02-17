@@ -1,21 +1,66 @@
 .mainfooter{
-
+    width: 100%;
 }
 
 .send_email_container_mainfooter{
-
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8rem;
+    background-color: var(--sea_blue);
+    height: 18rem;
 }
 
 .label_sendemail_container{
-
+    font-family: "TTNorms_Regular";
+    font-size: 1.4rem;
+    color: white;
 }
 
 .sendemail_box_container{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    border-radius: 2.5px;
+}
+.emailbox{
+    outline: none;
+    border: none;
+}
+.emailbox::placeholder{
+    font-family: "Pop_ins";
+}
 
+.button_class{
+    height: 2.2rem;
+    width: 3rem;
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 2.5px;
+    background-color: var(--sea_blue);
+    justify-content: center;
+    align-items: center;
 }
 
 .copy_right_details_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    height: 4rem;
 
+}
+.copy_right_details_container>a{
+    color: black;
+    opacity: 0.4;
+    font-size: 1rem;
+    font-family: "TTNorms_Regular";
 }
 
 .copy_right_link{
