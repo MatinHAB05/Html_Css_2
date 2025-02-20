@@ -17,6 +17,12 @@
     #image_howit{
         max-width: 100%;
     }
+    .sampleImages_container>div{
+        width: 70%;
+    }
+    .sampleImages_container>div img{
+        width: 100%;
+    }
 
 }
 
@@ -32,19 +38,21 @@
     .protfolio_container_mainmain{
         padding: 0px 1rem;
     }
-
+    .sampleImages_container>div{
+        width: 100%;
+    }
 
 }
 
 @media only screen and (max-width: 576px) {
 
     .minmmal_tilte{
-        font-size: 0.75rem;
+        font-size: 0.65rem;
     }
     .indetailtitle_container{
         font-size: 1.5rem;
     }
-    .maintile_howitWork{
+    .maintile_container{
         width: 90%;
     }
     .ourgoalText_container>div:nth-child(1){
@@ -59,6 +67,9 @@
     .pin_comments_container_mainmain{
         flex-direction: column;
         align-items: center;
+    }
+    .sampleImages_container{
+        padding: 0 5%;
     }
 }
 @media only screen and (max-width: 320px) {
