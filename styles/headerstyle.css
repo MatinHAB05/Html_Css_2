@@ -26,12 +26,23 @@ a{
     align-items: center;
     gap: 2.5rem;
 }
+.nav_container_mainheader a{
+    position: relative;
+}
+
+.hover_box.mainNav{
+    top:-15px;
+    bottom: -15px;
+    left: -15px;
+    right: -15px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+}
 .nav_container_mainheader>a{
     font-family: "Pop_ins";
     font-size: 1.25rem;
     font-weight: 300;
-    border-radius: 100px;
-    border: 1px solid transparent;
+
 }
 .nav_container_mainheader>div{
     font-family: "TTNorms_Regular";
@@ -41,14 +52,23 @@ a{
     gap: 2rem;
 }
 .nav_container_mainheader>div>*{
-    border-radius: 10px;
-    border: 1px solid transparent;
+
 }
 
 .nav_header>a{
     height: 100% !important;
-
 }
+
+.hover_box.otherNav{
+    top:-10px;
+    bottom: -10px;
+    left: -10px;
+    right: -10px;
+    border-radius: 100px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
 .connectUs_container_button_mainheader{
     color: var(--BUT_text_color);
     font-size: 1rem;

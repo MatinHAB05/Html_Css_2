@@ -99,6 +99,7 @@
 @media only screen and (max-width: 320px) {
     .nav_header{
         flex-direction: column-reverse;
+        gap: 1rem;
     }
     .details_container_header>div:nth-child(2){
 

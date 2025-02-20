@@ -35,3 +35,9 @@ body{
 img{
     user-select: none;
 }
+.hover_box{
+    position: absolute;
+    opacity: 0;
+    background-color: #E3F2FD;
+    z-index: -1;
+}
