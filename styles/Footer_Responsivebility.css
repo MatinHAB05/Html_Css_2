@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1200px) {
+    .send_email_container_mainfooter{
+        padding: 7.5rem 6rem;
+
+    }
+    
+}
+
+@media only screen and (max-width: 992px) {
+    .send_email_container_mainfooter{
+        flex-direction: column;
+        padding: 5rem 5px;
+        row-gap: 2.5rem;
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 650px) {
+    .copy_right_details_container{
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 1rem;  
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+}
+@media only screen and (max-width: 390px) {
+    .copy_right_details_container>a{
+        font-size: 0.8rem;
+    }
+    .emailbox{
+        font-size: 1rem;
+    }
+    .sendemail_box_container{
+        padding: 0.5rem 0.5rem;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .copy_right_details_container>a{
+        font-size: 0.8rem;
+    }
+
+}
+@media only screen and (max-width: 320px) {
+    .sendemail_box_container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .button_reset_container{
+        width: 100%;
+    }
+    .button_class{
+        width: 100%;
+    }
+
+}
