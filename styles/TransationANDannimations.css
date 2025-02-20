@@ -1,4 +1,4 @@
-/* @keyframes sendEmail {
+@keyframes sendEmail {
     0% {
         transform: translatex(0); 
     }
@@ -72,12 +72,12 @@
     100%{
         scale:1;
     }
-} */
+} 
 
 
 /* Header Trans_Anim */
 
-/* .nav_container_mainheader a{
+.nav_container_mainheader a{
     transition: background-color 250ms ease-out 100ms , color 250ms ease-out 0s;
     padding: 0.5rem 1rem;
 }
@@ -88,9 +88,11 @@
     background-color: black;
     color: #FFC107;
 
-}    */
+}    
+
 /*button click*/
-/* .connectUs_container_button_mainheader , .buttonSet_header>a{
+
+.connectUs_container_button_mainheader , .buttonSet_header>a{
     transition: all 250ms ease 0s;
 
 }
@@ -103,12 +105,12 @@
 .connectUs_container_button_mainheader:active , .buttonSet_header>a:active{ 
     background-color: black !important; 
     color: #FFC107;
-} */
+}
 
 
 
 /*Main Trans_Anim*/
-/* .ourgoalText_container{
+.ourgoalText_container{
     transition: background-color 250ms ease-out 100ms;  
 }
 .ourgoalText_container:hover{
@@ -118,10 +120,10 @@
 }
 .sponsorsicon_image:hover{
     animation: bell_Ring 100ms ease 110ms infinite alternate;
-} */
+} 
 
 /*Footer Trans_Anim*/
-/* .copy_right_details_container>a{
+.copy_right_details_container>a{
     transition: opacity 300ms ease 200ms;
 }
 .copy_right_details_container>a:hover{
@@ -140,12 +142,12 @@
     position: absolute;
     background-color: #64DD17;
     animation: sendEmail 2s ease-in-out forwards 100ms;
-} */
+}
 
 
 /*startAnim*/
 
-/* .sampleImage {
+.sampleImage {
     animation: sampleImageANIM 1s ease 40ms 1  forwards;
 }
 .pin_comments_box{
@@ -164,4 +166,4 @@
 }
 .nav_header{
     animation: navAnim 1.5s ease 40ms 1 forwards;
-} */
+}
