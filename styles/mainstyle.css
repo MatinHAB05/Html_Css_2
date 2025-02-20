@@ -1,11 +1,9 @@
-
 .mainmain{
-    width: 100%;
-    height: 2200px;
+    gap:2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+
 }
 
 
@@ -13,10 +11,8 @@
     display: flex;
     flex-direction: column;
     gap:3rem;
-    justify-content: center;
-    width: 100%;
-    padding: 0 10rem;
-
+    width:100%;
+    padding: 0px  5rem;
 }
 
 
@@ -25,8 +21,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     line-height: 2rem;
+
 }
 
 
@@ -41,25 +37,23 @@
 .indetailtitle_container{
     font-family: "TTNorms_Regular";
     font-size: 1.8rem;
-
-
+    text-align: center;
 }
 
 
 .ourgoals_mainmain{
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
-
-
+    justify-content: space-around;
+    row-gap: 1rem;
 }
 .ourgoalText_container{
-    width: 16rem;
+    max-width: 16rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     line-height: 2rem;
 }
 
@@ -84,7 +78,7 @@
 
 
 #image_howit{
-
+    
 }
 
 

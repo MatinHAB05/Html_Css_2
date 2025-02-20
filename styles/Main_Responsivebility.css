@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    #image_howit{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .How_itWork_container_mainmain{
+        padding: 0px 1rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .minmmal_tilte{
+        font-size: 0.75rem;
+    }
+    .indetailtitle_container{
+        font-size: 1.5rem;
+    }
+    .maintile_howitWork{
+        width: 90%;
+    }
+    .ourgoalText_container>div:nth-child(1){
+        font-size: 1rem;
+    }
+    .ourgoalText_container>div:nth-child(2){
+        font-size: 0.85rem;
+    }
+}
+@media only screen and (max-width: 320px) {
+
+}

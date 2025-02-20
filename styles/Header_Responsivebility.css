@@ -89,6 +89,12 @@
     .mainheader{
         padding: 0 1rem;
     }
+    .details_container_header>div:nth-child(1){
+        font-size: 1.5rem;
+    }
+    .details_container_header>div:nth-child(2){
+        font-size: 1rem;
+    }
 }
 @media only screen and (max-width: 320px) {
     .nav_header{
