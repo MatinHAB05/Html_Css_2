@@ -7,15 +7,13 @@ a{
     flex-direction:column ;
     padding: 0px  5rem;
     margin-bottom: 2.5rem;
-    height: 29rem;
     width: 100%;
-    justify-content: space-between;
     gap: 3rem;
 }
 
 
 .nav_header{
-    display: flex;  
+    display: flex;      
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
@@ -25,7 +23,6 @@ a{
 .nav_container_mainheader{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     gap: 2.5rem;
 }
@@ -36,20 +33,22 @@ a{
     border-radius: 100px;
     border: 1px solid transparent;
 }
-.nav_container_mainheader>div:nth-child(2){
+.nav_container_mainheader>div{
     font-family: "TTNorms_Regular";
     font-size: 1rem;
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    justify-content: space-between;
 }
-.nav_container_mainheader>div:nth-child(2)>*{
+.nav_container_mainheader>div>*{
     border-radius: 10px;
     border: 1px solid transparent;
 }
 
+.nav_header>a{
+    height: 100% !important;
 
+}
 .connectUs_container_button_mainheader{
     color: var(--BUT_text_color);
     font-size: 1rem;
@@ -58,6 +57,13 @@ a{
     border: 0.2rem solid transparent;
     border-radius: var(--BUT_border_radius);
     padding: 0.5rem 1rem;
+}
+svg{
+    width : 100%;
+}
+.Menu{
+    display: none;
+    height: 100%;
 }
 
 
