@@ -70,3 +70,22 @@ function checkViewportWidth() {
 window.addEventListener('resize', checkViewportWidth);
 
 checkViewportWidth();
+document.addEventListener("DOMContentLoaded", function () {
+    const sidebar = document.getElementById("sildeBarMenu");
+    const openMenu = document.querySelector(".sildeBar_mainheader");
+    const closeMenu = document.querySelector(".closeOn");
+
+    openMenu.addEventListener("click", function (e) {
+        e.preventDefault();
+        sidebar.classList.remove("hide");
+        sidebar.classList.add("show");
+        // openMenu.classList.add("hide");
+
+    });
+
+    closeMenu.addEventListener("click", function (e) {
+        e.preventDefault();
+        sidebar.classList.remove("show");
+        sidebar.classList.add("hide");
+    });
+});

@@ -30,6 +30,20 @@
 
     }
 }
+
+@keyframes sideBarANIM{
+    0%{
+        opacity: 0;
+        transform: translateY(-1000px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+
+
+    }
+}
+
 @keyframes pin_comments_boxANIM{
     0%{
         opacity: 0;
@@ -76,11 +90,19 @@
 
 
 /* Header Trans_Anim */
-
+/* .sildeBar_mainheader.hide{
+    animation: sampleImageANIM 1s ease 40ms 1  forwards;
+} */
 .nav_container_mainheader a,#sildeBarMenu a:not(:nth-child(1)){
     transition: color 200ms ease-out 0s;
 }
+#sildeBarMenu.show{
+    animation: sideBarANIM 1s ease 40ms 1  forwards;
 
+}  
+#sildeBarMenu.hide{
+    animation: sideBarANIM 1s ease 40ms 1  forwards;
+}    
 .hover_box{
     transition: opacity 250ms ease-out 100ms , background-color 250ms ease-out 0s;
 }
@@ -110,8 +132,6 @@
     background-color: black !important; 
     color: #FFC107;
 }
-
-
 
 /*Main Trans_Anim*/
 .ourgoalText_container{
