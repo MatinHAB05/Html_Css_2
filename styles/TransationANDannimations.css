@@ -77,20 +77,20 @@
 
 /* Header Trans_Anim */
 
-.nav_container_mainheader a{
+.nav_container_mainheader a,#sildeBarMenu a:not(:nth-child(1)){
     transition: color 200ms ease-out 0s;
 }
 
 .hover_box{
     transition: opacity 250ms ease-out 100ms , background-color 250ms ease-out 0s;
 }
-.nav_container_mainheader  a:hover .hover_box{
+.nav_container_mainheader  a:hover .hover_box ,#sildeBarMenu a:not(:nth-child(1)):hover .hover_box{
     opacity: 1;
 }   
-.nav_container_mainheader  a:active .hover_box{
+.nav_container_mainheader  a:active .hover_box,#sildeBarMenu a:not(:nth-child(1)):active .hover_box{
     background-color: black;
 }    
-.nav_container_mainheader  a:active{
+.nav_container_mainheader  a:active,#sildeBarMenu a:not(:nth-child(1)):active{
     color: #FFC107;
 }
 

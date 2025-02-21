@@ -66,25 +66,54 @@
     .nav_container_mainheader>a{
         font-size: 1rem;
     }
+    #sideBarMenu{
+        display: none !important;
+    }
+
 }
 
 @media only screen and (max-width: 576px) {
-
-
+    
+    #sildeBarMenu{
+        font-family: "Pop_ins";
+        padding: 1rem 0 0 1rem;
+        z-index:1;
+        display: none;
+        position: fixed;
+        line-height: normal;
+        justify-content: flex-start;
+        gap: 2rem;
+        border-radius: 3px;
+        font-size: 1.2rem;
+        background: aqua;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        height: 100%;
+        width: 80%;
+    }
+    .closeOn     img{
+        height: 100%;
+    }
+    .closeOn{
+        height: 2rem;
+    }
     .connectUs_container_button_mainheader{
         display: none;
     }
-    .Menu{
+    .sildeBar_mainheader{
         display: block;
     }
     .openMenu{
         width: 2rem;
     }
-    .closeMenu{
-        display: none;
-    }
+
+
     .nav_container_mainheader>div{
         display: none;
+    }
+    .nav_container_mainheader>div a{
+        
     }
     .mainheader{
         padding: 0 1rem;
@@ -104,5 +133,10 @@
     .details_container_header>div:nth-child(2){
 
         width: 100%;
+    }
+}
+@media only screen and (max-width: 280px) {
+    #sildeBarMenu{
+        font-size: 1rem;
     }
 }
