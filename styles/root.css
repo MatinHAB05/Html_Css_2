@@ -31,7 +31,13 @@ body{
 .pin_comments_box >.comment_footer{
     user-select: none;
 }
+.comment_text{
+    user-select: none;
+}
 img{
+    user-select: none;
+}
+form{
     user-select: none;
 }
 .hover_box{
@@ -39,4 +45,7 @@ img{
     opacity: 0;
     background-color: #E3F2FD;
     z-index: -1;
+}
+a{
+    user-select: none;
 }
