@@ -7,6 +7,8 @@ date: 2025-02-15
 
 # HTML-CSS Practice Project
 
+
+
 # Table of Contents
 - [Introduction](#introduction)
 - [Todo List](#todo-list)
@@ -50,4 +52,9 @@ The goal of this practice was to write HTML and CSS code and practice how can fl
 [Check it here](https://www.google.com)
 
 ## Project Demo Images
-Some project screenshots will be placed here.
+[Project Preview](https://github.com/user-attachments/assets/2228994b-e471-4c8c-8616-2d4ddd86dec0)
+
+
+
+
+
