@@ -15,7 +15,7 @@ date: 2025-02-15
 - [Goals](#goals)
 - [Features](#features)
 - [How to View](#how-to-view)
-- [Project Demo Images](#project-demo-images)
+- [Project Preview](#project-preview)
 
 ## Introduction
 This project is second practice project for reviewing and practicing the markup languages HTML and CSS. In this project, I tried to implement a home page, although the main focus was on the HTML flex boxes.
@@ -51,9 +51,9 @@ The goal of this practice was to write HTML and CSS code and practice how can fl
 ## How to View
 [Check it here](https://www.google.com)
 
-## Project Demo Images
-[![Project Preview](https://github.com/user-attachments/assets/2228994b-e471-4c8c-8616-2d4ddd86dec0)](link)
-[![Project Preview](https://github.com/user-attachments/assets/b6d7d0b7-2032-4304-a2c6-4efd92508010)](link)
+## Project Preview
+![Project Preview](https://github.com/user-attachments/assets/2228994b-e471-4c8c-8616-2d4ddd86dec0)
+![Project Preview](https://github.com/user-attachments/assets/b6d7d0b7-2032-4304-a2c6-4efd92508010)
 
 
 
