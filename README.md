@@ -21,22 +21,22 @@ date: 2025-02-15
 This project is second practice project for reviewing and practicing the markup languages HTML and CSS. In this project, I tried to implement a home page, although the main focus was on the HTML flex boxes.
 
 ## Todo List
-- [x] Header
-  - [x] Design Guide Structure & HTML
-  - [x] CSS Styles (Colors, Shadows, Transitions, ...)
-  - [x] Hamburger Menu
-    - [x] Design Guide Structure & HTML
-    - [x] CSS Styles (Colors, Shadows, Transitions, ...)
-    - [x] Animations
-- [x] Body
-  - [x] Design Guide Structure & HTML
-  - [x] CSS Styles (Colors, Shadows, Transitions, ...)
-  - [x] Animations
-- [x] Footer
-  - [x] Design Guide Structure & HTML
-  - [x] CSS Styles (Colors, Shadows, Transitions, ...)
-  - [x] Animations
-- [x] Responsive Design
+- :white_check_mark: Header
+  - :white_check_mark: Design Guide Structure & HTML
+  - :white_check_mark: CSS Styles (Colors, Shadows, Transitions, ...)
+  - :white_check_mark: Hamburger Menu
+    - :white_check_mark: Design Guide Structure & HTML
+    - :white_check_mark: CSS Styles (Colors, Shadows, Transitions, ...)
+    - :white_check_mark: Animations
+- :white_check_mark: Body
+  - :white_check_mark: Design Guide Structure & HTML
+  - :white_check_mark: CSS Styles (Colors, Shadows, Transitions, ...)
+  - :white_check_mark: Animations
+- :white_check_mark: Footer
+  - :white_check_mark: Design Guide Structure & HTML
+  - :white_check_mark: CSS Styles (Colors, Shadows, Transitions, ...)
+  - :white_check_mark: Animations
+- :white_check_mark: Responsive Design
 
 ## Goals
 The goal of this practice was to write HTML and CSS code and practice how can flex boxes can help to designing in a simpler and smoother way.
