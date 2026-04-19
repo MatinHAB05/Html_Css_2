@@ -52,8 +52,8 @@ The goal of this practice was to write HTML and CSS code and practice how can fl
 [Check it here](https://www.google.com)
 
 ## Project Demo Images
-[![Project Preview](https://github.com/user-attachments/assets/2228994b-e471-4c8c-8616-2d4ddd86dec0)]
-[![Project Preview](https://github.com/user-attachments/assets/b6d7d0b7-2032-4304-a2c6-4efd92508010)]
+[![Project Preview](https://github.com/user-attachments/assets/2228994b-e471-4c8c-8616-2d4ddd86dec0)](link)
+[![Project Preview](https://github.com/user-attachments/assets/b6d7d0b7-2032-4304-a2c6-4efd92508010)](link)
 
 
 
