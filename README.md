@@ -18,7 +18,7 @@ date: 2025-02-15
 - [Project Preview](#project-preview)
 
 ## Introduction
-This project is second practice project for reviewing and practicing the markup languages HTML and CSS. In this project, I tried to implement a home page, although the main focus was on the HTML flex boxes.
+This project is second practice project for reviewing and practicing the markup languages HTML and CSS. In this project, I tried to implement a home page, although the main focus was on the CSS flex boxes.
 
 ## Todo List
 - :white_check_mark: Header
