@@ -47,7 +47,7 @@ The goal of this practice was to write HTML and CSS code and practice how can fl
 - Flex Box
 - Animation
 - Responsive Design
-- Java Script
+- JavaScript
 
 ## How to View
 [Check it here](https://matinhab05.github.io/Html_Css_2/)
