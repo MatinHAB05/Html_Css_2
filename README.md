@@ -50,7 +50,7 @@ The goal of this practice was to write HTML and CSS code and practice how can fl
 - Java Script
 
 ## How to View
-[Check it here](https://www.google.com)
+[Check it here](https://matinhab05.github.io/Html_Css_2/)
 
 ## Project Preview
 ![Preview 1](https://github.com/user-attachments/assets/2228994b-e471-4c8c-8616-2d4ddd86dec0)
